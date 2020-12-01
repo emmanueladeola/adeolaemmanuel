@@ -9,7 +9,7 @@ import angular from './img/angular.svg'
 import react from './img/react.svg'
 import mysql from './img/mysql.svg'
 import jquery from './img/jquery.png'
-import python from './img/phython.png'
+import python from './img/python.png'
 import ts from './img/ts.png'
 import wp from './img/wordpress.png'
 //import { Link } from "react-router-dom";
