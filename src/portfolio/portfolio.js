@@ -49,7 +49,7 @@ class Portfolio extends React.Component{
                             this.state.portfolio.map((arr,ind)=>{
                                 return(
                                     <div className="w3-col s6 m3 l3 w3-padding">
-                                        <div className="w3-container w3-margin-right w3-border w3-round top text-folder w3-btn w3-padding" key={ind} id={arr} onClick={()=>this.folderClick(arr)}>
+                                        <div className="w3-border w3-round top text-folder w3-btn w3-padding" key={ind} id={arr} onClick={()=>this.folderClick(arr)}>
                                             <div className="w3-half w3-padding">{arr}</div>
                                             <div className="w3-half"></div>
                                         </div>
