@@ -1,12 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from './home/home'
+import Adeola from './adeola/adeola'
+import Skills from './skills/skills'
+import Portfolio from "./portfolio/portfolio";
+import Contact from "./contact/contact";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <div>
+      <Route path="/" exact component= { Home }>
+        <Home />
+      </Route>
+      <Route path="/adeola" component= { Adeola }>
+        <Adeola />
+      </Route>
+      <Route path="/skills" component= { Skills }>
+        <Skills />
+      </Route>
+      <Route path="/portfolio" component= { Portfolio }>
+        <Portfolio />
+      </Route>
+      <Route path="/contact" component= { Contact }>
+        <Contact />
+      </Route>
+      </div>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

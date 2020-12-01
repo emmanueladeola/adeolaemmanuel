@@ -1,0 +1,22 @@
+.nav{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.nav:hover{
+    color: #009688;
+    background-image: linear-gradient(transparent 88%, #009688 12%);
+    background-size: 0% 100%;
+    transition: all 1s;
+}
+
+.nav:active{
+    text-decoration: underline;
+    color: #009688;
+}
+
+.bar{
+    width: 250px;
+}

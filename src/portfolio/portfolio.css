@@ -1,0 +1,20 @@
+.size{
+    width: 100%;
+}
+
+.top{
+    margin-top: 50px;
+}
+.port{
+    margin-top: 150px;
+}
+
+.text-folder:hover{
+    color: #ffffff;
+    background-color: #009688;
+}
+
+.folder-img{
+    width: 100%;
+    height: 400px;
+}
