@@ -158,7 +158,7 @@ class Adeola extends React.Component{
                         <div className="w3-col s12 m3 l3 w3-margin-top w3-padding">
                                 <div className="w3-container w3-padding w3-border">
                                     <div className="w3-center w3-margin-top">
-                                        <Link to="https://www.kigenni.com/" className="w3-text-blue"><b>KIGENNI</b></Link>
+                                        <a href="https://www.kigenni.com/" className="w3-text-blue"><b>KIGENNI</b></a>
                                     </div>
                                 </div>
                         </div>
