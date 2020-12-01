@@ -37,6 +37,8 @@ class Contact extends React.Component{
                                     <p><b>+234 903 083 4160</b></p>
                                 </div>
                             </div>
+                        </div>
+                        <div className="w3-row rtop">
                             <div className="w3-col s6 m3 l3">
                                 <div className="w3-center">
                                     <img src={email} className="width" />
