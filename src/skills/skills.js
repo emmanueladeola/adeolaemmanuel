@@ -8,6 +8,10 @@ import js from './img/js.svg'
 import angular from './img/angular.svg'
 import react from './img/react.svg'
 import mysql from './img/mysql.svg'
+import jquery from './img/jquery.png'
+import python from './img/phython.png'
+import ts from './img/ts.png'
+import wp from './img/wordpress.png'
 //import { Link } from "react-router-dom";
 
 class About extends React.Component{
@@ -45,7 +49,23 @@ class About extends React.Component{
                         </div>
                         <div className="w3-col s6 m4 l4">
                             <img src={mysql} className="w3-margin-top svg" />
-                            <p className="w3-center"><b>MYSQL</b></p>
+                            <p className="w3-center"><b>Mysql</b></p>
+                        </div>
+                        <div className="w3-col s6 m4 l4">
+                            <img src={ts} className="w3-margin-top svg" />
+                            <p className="w3-center"><b>TypeScript</b></p>
+                        </div>
+                        <div className="w3-col s6 m4 l4">
+                            <img src={python} className="w3-margin-top svg" />
+                            <p className="w3-center"><b>Phython</b></p>
+                        </div>
+                        <div className="w3-col s6 m4 l4">
+                            <img src={jquery} className="w3-margin-top svg" />
+                            <p className="w3-center"><b>JQUERY</b></p>
+                        </div>
+                        <div className="w3-col s6 m4 l4">
+                            <img src={wp} className="w3-margin-top svg" />
+                            <p className="w3-center"><b>WORDPRESS</b></p>
                         </div>
                     </div>
                 </div>
