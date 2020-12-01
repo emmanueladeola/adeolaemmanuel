@@ -44,28 +44,28 @@ class About extends React.Component{
                             <p className="w3-center"><b>Angular</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4">
-                            <img src={react} className="w3-margin-top svg" />
+                            <img src={react} className="w3-margin-top img" />
                             <p className="w3-center"><b>React</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4">
-                            <img src={mysql} className="w3-margin-top svg" />
+                            <img src={mysql} className="w3-margin-top img" />
                             <p className="w3-center"><b>Mysql</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4">
-                            <img src={ts} className="w3-margin-top svg" />
+                            <img src={ts} className="w3-margin-top img" />
                             <p className="w3-center img"><b>TypeScript</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4">
-                            <img src={python} className="w3-margin-top svg" />
+                            <img src={python} className="w3-margin-top img" />
                             <p className="w3-center img"><b>Phython</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4">
-                            <img src={jquery} className="w3-margin-top svg" />
+                            <img src={jquery} className="w3-margin-top img" />
                             <p className="w3-center img"><b>JQUERY</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4">
-                            <img src={wp} className="w3-margin-top svg" />
-                            <p className="w3-center img"><b>WORDPRESS</b></p>
+                            <img src={wp} className="w3-margin-top img" />
+                            <p className="w3-center"><b>WORDPRESS</b></p>
                         </div>
                     </div>
                 </div>
