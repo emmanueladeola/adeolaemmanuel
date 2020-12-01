@@ -53,19 +53,19 @@ class About extends React.Component{
                         </div>
                         <div className="w3-col s6 m4 l4">
                             <img src={ts} className="w3-margin-top svg" />
-                            <p className="w3-center"><b>TypeScript</b></p>
+                            <p className="w3-center img"><b>TypeScript</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4">
                             <img src={python} className="w3-margin-top svg" />
-                            <p className="w3-center"><b>Phython</b></p>
+                            <p className="w3-center img"><b>Phython</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4">
                             <img src={jquery} className="w3-margin-top svg" />
-                            <p className="w3-center"><b>JQUERY</b></p>
+                            <p className="w3-center img"><b>JQUERY</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4">
                             <img src={wp} className="w3-margin-top svg" />
-                            <p className="w3-center"><b>WORDPRESS</b></p>
+                            <p className="w3-center img"><b>WORDPRESS</b></p>
                         </div>
                     </div>
                 </div>
