@@ -32,11 +32,11 @@ class Adeola extends React.Component{
                     <Nav />
                 </div>
                 <div className="w3-center w3-bottom">
-                    <button className="w3-btn circle w3-black"><a href="#up"><img src={up} className="up" /></a></button>
+                    <button className="w3-btn circle w3-black"><a href="#up"><img src={up} alt="up-arrow" className="up" /></a></button>
                 </div>
                 <div className="w3-container w3-animate-top top">
-                    <div className="w3-center">
-                        <img src={slide1} className="width" />
+                    <div className="w3-center w3-container">
+                        <img src={slide1} alt="Me" className="widthA" />
                     </div>
                     <div className="w3-row">
                         <div className="w3-col m2 l2 w3-hide-small"><br /></div>
@@ -54,7 +54,7 @@ class Adeola extends React.Component{
                             <div className="w3-col s12 m3 l3 w3-padding">
                                 <div className="w3-container w3-border w3-padding">
                                     <div className="w3-center">
-                                        <img src={web} className="svg w3-margin-top" />
+                                        <img src={web} alt="web" className="svg w3-margin-top" />
                                         <div className="w3-margin-top">
                                             <p>WEBSITE DEVEVLOPMENT</p>
                                         </div>
@@ -64,7 +64,7 @@ class Adeola extends React.Component{
                             <div className="w3-col s12 m3 l3 w3-padding">
                                 <div className="w3-container w3-border w3-padding">
                                     <div className="w3-center">
-                                        <img src={mobile} className="svg w3-margin-top" />
+                                        <img src={mobile} alt="mobile" className="svg w3-margin-top" />
                                         <div className="w3-margin-top">
                                             <p>MOBILE APP DEVEVLOPMENT</p>
                                         </div>
@@ -74,7 +74,7 @@ class Adeola extends React.Component{
                             <div className="w3-col s12 m3 l3 w3-padding">
                                 <div className="w3-container w3-border w3-padding">
                                     <div className="w3-center">
-                                        <img src={desktop} className="svg w3-margin-top" />
+                                        <img src={desktop} alt="desktop" className="svg w3-margin-top" />
                                         <div className="w3-margin-top">
                                             <p>DESKTOP DEVEVLOPMENT</p>
                                         </div>
@@ -84,7 +84,7 @@ class Adeola extends React.Component{
                             <div className="w3-col s12 m3 l3 w3-padding">
                                 <div className="w3-container w3-border w3-padding">
                                     <div className="w3-center">
-                                        <img src={graphics} className="svg w3-margin-top" />
+                                        <img src={graphics} alt="graphics" className="svg w3-margin-top" />
                                         <div className="w3-margin-top">
                                             <p>GRAPHICS DESIGN</p>
                                         </div>
@@ -96,7 +96,7 @@ class Adeola extends React.Component{
 
                     <div className="">
                         <div className="w3-center">
-                            <img src={work} className="width w3-large" />
+                            <img src={work} alt="work" className="widthA w3-large" />
                         </div>
                         <div className="w3-row">
                             <div className="w3-col s12 m2 l2 w3-padding">
@@ -110,7 +110,7 @@ class Adeola extends React.Component{
                             <div className="w3-col s12 m2 l2 w3-padding">
                                 <div className="w3-container w3-padding">
                                     <div className="w3-center w3-margin-top">
-                                        <img src={idea} className="work w3-margin-top" />
+                                        <img src={idea} alt="idea" className="work w3-margin-top" />
                                         <p className="w3-center w3-margin-top">IDEA</p>
                                     </div>
                                 </div>
@@ -118,7 +118,7 @@ class Adeola extends React.Component{
                             <div className="w3-col s12 m2 l2 w3-padding">
                                 <div className="w3-container w3-padding">
                                     <div className="w3-center w3-margin-top">
-                                        <img src={paint} className="work w3-margin-top" />
+                                        <img src={paint} alt="paint" className="work w3-margin-top" />
                                         <p className="w3-center w3-margin-top">DESIGN</p>
                                     </div>
                                 </div>
@@ -126,7 +126,7 @@ class Adeola extends React.Component{
                             <div className="w3-col s12 m2 l2 w3-padding">
                                 <div className="w3-container w3-padding">
                                     <div className="w3-center w3-margin-top">
-                                        <img src={develope} className="work w3-margin-top" />
+                                        <img src={develope} alt="develope" className="work w3-margin-top" />
                                         <p className="w3-center w3-margin-top">DEVELOP</p>
                                     </div>
                                 </div>
@@ -134,7 +134,7 @@ class Adeola extends React.Component{
                             <div className="w3-col s12 m2 l2 w3-padding">
                                 <div className="w3-container w3-padding">
                                     <div className="w3-center w3-margin-top">
-                                        <img src={test} className="work w3-margin-top" />
+                                        <img src={test} alt="test" className="work w3-margin-top" />
                                         <p className="w3-center w3-margin-top">TEST</p>
                                     </div>
                                 </div>
@@ -142,7 +142,7 @@ class Adeola extends React.Component{
                             <div className="w3-col s12 m2 l2 w3-padding">
                                 <div className="w3-container w3-padding">
                                     <div className="w3-center w3-margin-top">
-                                        <img src={launch} className="work w3-margin-top" />
+                                        <img src={launch} alt="launch" className="work w3-margin-top" />
                                         <p className="w3-center w3-margin-top">LAUNCH</p>
                                     </div>
                                 </div>
@@ -152,7 +152,7 @@ class Adeola extends React.Component{
 
                     <div className="w3-row">
                         <div className="w3-center">
-                            <img src={proud} className="width w3-large" />
+                            <img src={proud} alt="proud" className="widthA w3-large" />
                         </div>
                         <div className="w3-row">
                         <div className="w3-col s12 m3 l3 w3-margin-top w3-padding">
