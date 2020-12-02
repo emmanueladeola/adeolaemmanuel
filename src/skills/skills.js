@@ -27,27 +27,27 @@ class About extends React.Component{
                 </div>
                 <div className="w3-container w3-animate-left top">
                     <div className="w3-row">
-                        <div className="w3-col s6 m4 l4">
+                        <div className="w3-col s6 m4 l4 w3-center">
                             <img src={html} className="w3-margin-top svg" />
                             <p className="w3-center"><b>HTML5</b></p>
                         </div>
-                        <div className="w3-col s6 m4 l4">
+                        <div className="w3-col s6 m4 l4 w3-center">
                             <img src={css} className="w3-margin-top svg" />
                             <p className="w3-center"><b>CSS3</b></p>
                         </div>
-                        <div className="w3-col s6 m4 l4">
+                        <div className="w3-col s6 m4 l4 w3-center">
                             <img src={js} className="w3-margin-top svg" />
                             <p className="w3-center"><b>JavaScript</b></p>
                         </div>
-                        <div className="w3-col s6 m4 l4">
+                        <div className="w3-col s6 m4 l4 w3-center">
                             <img src={angular} className="w3-margin-top svg" />
                             <p className="w3-center"><b>Angular</b></p>
                         </div>
-                        <div className="w3-col s6 m4 l4">
+                        <div className="w3-col s6 m4 l4 w3-center">
                             <img src={react} className="w3-margin-top img" />
                             <p className="w3-center"><b>React</b></p>
                         </div>
-                        <div className="w3-col s6 m4 l4">
+                        <div className="w3-col s6 m4 l4 w3-center">
                             <img src={mysql} className="w3-margin-top img" />
                             <p className="w3-center"><b>Mysql</b></p>
                         </div>
