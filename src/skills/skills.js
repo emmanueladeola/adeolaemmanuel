@@ -48,7 +48,7 @@ class About extends React.Component{
                             <p className="w3-center"><b>React</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4 w3-center">
-                            <img src={mysql} className="w3-margin-top img" />
+                            <img src={mysql} alt="mysql" className="w3-margin-top img" />
                             <p className="w3-center"><b>Mysql</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4 w3-center">
