@@ -10,6 +10,7 @@ import email from "./img/gmail.svg";
 class Contact extends React.Component{
     constructor(props){
         super(props)
+        this.state = {}
     }
 
     render(){

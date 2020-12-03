@@ -17,6 +17,7 @@ import wp from './img/wordpress.png'
 class About extends React.Component{
     constructor(props){
         super(props)
+        this.state = {}
     }
 
     render(){

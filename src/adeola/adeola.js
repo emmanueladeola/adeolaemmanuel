@@ -1,7 +1,7 @@
 import React from "react";
 import './adeola.css';
 import '../index.css'
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import Nav from '../nav/nav';
 import slide1 from './img/slide1.JPG';
 import services from './img/services.png';
@@ -22,6 +22,7 @@ import idea from './img/idea.svg'
 class Adeola extends React.Component{
     constructor(props){
         super(props)
+        this.state = {}
     }
 
 
