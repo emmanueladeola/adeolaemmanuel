@@ -26,14 +26,14 @@ class Contact extends React.Component{
                         <div className="w3-row rtop">
                             <div className="w3-col s6 m3 l3">
                                 <div className="w3-center">
-                                    <img src={placeholder} className="width" />
+                                    <img src={placeholder} alt="location" className="width" />
                                     <p><b>BASED IN</b></p>
                                     <p><b>LAGOS, NG</b></p>
                                 </div>
                             </div>
                             <div className="w3-col s6 m3 l3">
                                 <div className="w3-center">
-                                    <img src={phone} className="width" />
+                                    <img src={phone} alt="phone" className="width" />
                                     <p><b>+234 903 083 4160</b></p>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ class Contact extends React.Component{
                         <div className="w3-row rtop">
                             <div className="w3-col s6 m3 l3">
                                 <div className="w3-center">
-                                    <img src={email} className="width" />
+                                    <img src={email} alt="email" className="width" />
                                     <p><b><a href="mailto:adeolaemmanuel006@gmail.com">adeolaemmanuel006@gmail.com</a></b></p>
                                 </div>
                             </div>

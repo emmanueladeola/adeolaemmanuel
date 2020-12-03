@@ -28,23 +28,23 @@ class About extends React.Component{
                 <div className="w3-container w3-animate-left top">
                     <div className="w3-row">
                         <div className="w3-col s6 m4 l4 w3-center">
-                            <img src={html} className="w3-margin-top svg" />
+                            <img src={html} alt="html" className="w3-margin-top svg" />
                             <p className="w3-center"><b>HTML5</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4 w3-center">
-                            <img src={css} className="w3-margin-top svg" />
+                            <img src={css} alt="css" className="w3-margin-top svg" />
                             <p className="w3-center"><b>CSS3</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4 w3-center">
-                            <img src={js} className="w3-margin-top svg" />
+                            <img src={js} alt="js" className="w3-margin-top svg" />
                             <p className="w3-center"><b>JavaScript</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4 w3-center">
-                            <img src={angular} className="w3-margin-top svg" />
+                            <img src={angular} alt="angular" className="w3-margin-top svg" />
                             <p className="w3-center"><b>Angular</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4 w3-center">
-                            <img src={react} className="w3-margin-top img" />
+                            <img src={react} alt="react" className="w3-margin-top img" />
                             <p className="w3-center"><b>React</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4 w3-center">
@@ -52,19 +52,19 @@ class About extends React.Component{
                             <p className="w3-center"><b>Mysql</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4 w3-center">
-                            <img src={ts} className="w3-margin-top img" />
+                            <img src={ts} alt="ts" className="w3-margin-top img" />
                             <p className="w3-center img"><b>TypeScript</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4 w3-center">
-                            <img src={python} className="w3-margin-top img" />
+                            <img src={python} alt="python" className="w3-margin-top img" />
                             <p className="w3-center img"><b>Phython</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4 w3-center">
-                            <img src={jquery} className="w3-margin-top img" />
+                            <img src={jquery} alt="jq" className="w3-margin-top img" />
                             <p className="w3-center img"><b>JQUERY</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4 w3-center">
-                            <img src={wp} className="w3-margin-top img" />
+                            <img src={wp} alt="wp" className="w3-margin-top img" />
                             <p className="w3-center"><b>WORDPRESS</b></p>
                         </div>
                     </div>

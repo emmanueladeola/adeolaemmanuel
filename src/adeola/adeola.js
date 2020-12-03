@@ -48,7 +48,7 @@ class Adeola extends React.Component{
                     </div>
                     <div className="w3-row">
                         <div className="w3-center">
-                            <img src={services} className="ser" />
+                            <img src={services} alt="services" className="ser" />
                         </div>
                         <div className="w3-margin-top">
                             <div className="w3-col s12 m3 l3 w3-padding">
@@ -102,7 +102,7 @@ class Adeola extends React.Component{
                             <div className="w3-col s12 m2 l2 w3-padding">
                                 <div className="w3-container w3-padding">
                                     <div className="w3-center w3-margin-top">
-                                        <img src={discuss} className="work w3-margin-top" />
+                                        <img src={discuss} alt="discuss" className="work w3-margin-top" />
                                         <p className="w3-center w3-margin-top">DISCUSS</p>
                                     </div>
                                 </div>
