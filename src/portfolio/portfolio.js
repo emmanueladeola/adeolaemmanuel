@@ -68,7 +68,7 @@ class Portfolio extends React.Component{
                                             <button onClick={()=>this.folderReturn()} className="w3-black w3-btn">X</button>
                                         </div>
                                         <div className="w3-container top w3-btn w3-padding">
-                                            <img src={arr} className="folder-img" />
+                                            <img src={arr} alt={arr} className="folder-img" />
                                         </div>
                                     </div>
                                 )
