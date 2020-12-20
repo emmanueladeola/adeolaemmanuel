@@ -1,5 +1,6 @@
 .wel{
     margin-top: 200px;
+    animation: welcome 3s ease;
 }
 
 .type{
@@ -10,4 +11,14 @@
     text-decoration: none;
     font-weight: bold;
     
+}
+
+@keyframes welcome{
+    0%{
+        margin-top: 0px;
+    }
+
+    100%{
+        margin-top: 200px;
+    }
 }

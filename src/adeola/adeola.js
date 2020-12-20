@@ -32,8 +32,8 @@ class Adeola extends React.Component{
                 <div className="w3-container w3-animate-top" id="up">
                     <Nav />
                 </div>
-                <div className="w3-center w3-bottom">
-                    <button className="w3-btn circle w3-black"><a href="#up"><img src={up} alt="up-arrow" className="up" /></a></button>
+                <div className="w3-center w3-bottom" style={{width:'50px'}}>
+                    <button className="w3-btn circle w3-black w3-right"><a href="#up"><img src={up} alt="up-arrow" className="up" /></a></button>
                 </div>
                 <div className="w3-container w3-animate-top top">
                     <div className="w3-center w3-container">

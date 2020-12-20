@@ -24,7 +24,7 @@ class Home extends React.Component{
                         </div>
                         <div className="w3-center">
                         <Typical className="type" steps={['An Angular Js Developer  ', 'React Developer   ', 'In Summary a Fullstack Developer   ']} loop={Infinity}  />
-                        </div>
+                        </div>                        
                         <Link to="/adeola" className="next w3-block w3-center w3-btn w3-black w3-bottom">Next</Link>
                     </div>
                 </main>
