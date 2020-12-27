@@ -6,6 +6,11 @@ import login from "./img/chekmate/login.png";
 import profile from "./img/chekmate/profile.png";
 import dashboard from "./img/chekmate/dashboard.png";
 import map from "./img/chekmate/map.png";
+import portal1 from "./img/portal/1.png";
+import portal2 from "./img/portal/2.png";
+import portal3 from "./img/portal/3.png";
+import portal4 from "./img/portal/4.png";
+import portal5 from "./img/portal/5.png";
 
 class Portfolio extends React.Component{
     constructor(props){
@@ -24,6 +29,8 @@ class Portfolio extends React.Component{
         document.getElementById('display').classList.remove('w3-hide')
         if(id === this.state.portfolio[0]){
             this.setState({'id': [ login,profile,map,dashboard],})
+        }if(id === this.state.portfolio[1]){
+            this.setState({'id': [ portal1, portal2 , portal3, portal5, portal4],})
         }
 
     }
