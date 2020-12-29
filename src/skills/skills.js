@@ -9,7 +9,7 @@ import angular from './img/angular.svg'
 import react from './img/react.svg'
 import mysql from './img/mysql.svg'
 import jquery from './img/jquery.png'
-import python from './img/python.png'
+import c from './img/c.png'
 import ts from './img/ts.png'
 import wp from './img/wordpress.png'
 //import { Link } from "react-router-dom";
@@ -57,8 +57,8 @@ class About extends React.Component{
                             <p className="w3-center img"><b>TypeScript</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4 w3-center">
-                            <img src={python} alt="python" className="w3-margin-top img" />
-                            <p className="w3-center img"><b>Phython</b></p>
+                            <img src={c} alt="python" className="w3-margin-top img" />
+                            <p className="w3-center img"><b>C++</b></p>
                         </div>
                         <div className="w3-col s6 m4 l4 w3-center">
                             <img src={jquery} alt="jq" className="w3-margin-top img" />
