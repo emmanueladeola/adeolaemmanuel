@@ -17,7 +17,7 @@ class Portfolio extends React.Component{
         super(props)
         this.state = {
             portfolio: ['Chekmait','School portal'],
-            id: []
+            id: [],
         }
         this.folderReturn = this.folderReturn.bind(this)
     }
@@ -39,6 +39,7 @@ class Portfolio extends React.Component{
         document.getElementById('row').classList.remove('w3-hide')
         document.getElementById('display').classList.add('w3-hide')
     }
+
 
 
     render(){
@@ -67,13 +68,13 @@ class Portfolio extends React.Component{
                     </div>
 
                     <div className="w3-row w3-hide" id="display">
+                        <div className="w3-center">
+                            <button onClick={()=>this.folderReturn()} className="w3-black w3-btn">X</button>
+                        </div>
                         {
                             this.state.id.map(arr=>{
                                 return(
-                                    <div className="w3-col s6 m4 l4 w3-margin-top w3-padding">
-                                        <div className="">
-                                            <button onClick={()=>this.folderReturn()} className="w3-black w3-btn">X</button>
-                                        </div>
+                                    <div className="w3-col s12 m12 l12 w3-margin-top w3-padding">
                                         <div className="w3-container top w3-btn w3-padding">
                                             <img src={arr} alt='img' className="folder-img" />
                                         </div>

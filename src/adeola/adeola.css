@@ -1,6 +1,10 @@
 .top{
     margin-top: 50px;
 }
+body {
+    margin: 0;
+    font-family: 'Laro', 'Lato', sans-serif;
+}
 
 .widthA{
     width:  250px;
