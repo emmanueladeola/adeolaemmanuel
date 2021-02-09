@@ -1,6 +1,8 @@
 import React from 'react';
 import '../index.css';
 import './portfolio.css';
+import linkedin from "../assets/img/linkedin.svg";
+import github from "../assets/img/github.svg";
 import Nav from '../nav/nav';
 import login from "./img/chekmate/login.png";
 import profile from "./img/chekmate/profile.png";
@@ -51,6 +53,14 @@ class Portfolio extends React.Component{
                 <div className="w3-container w3-animate-left port">
                     <div className="w3-center">
                         <h2>PORTFOLIO</h2>
+                    </div>
+                    <div className="w3-row">
+                        <div className="w3-col s6 m6 l6">
+                            <a href="https://www.linkedin.com/in/adeola-emmanuel-326513199/"><img src={linkedin} alt='linkdein' className='w3-right' style={{width: '60px', height: '50px'}} /></a>
+                        </div>
+                        <div className="w3-col s6 m6 l6">
+                            <a href="https://github.com/Adeolaemmanuel"><img src={github} alt='linkdein' className='w3-margin-right' style={{width: '60px', height: '50px'}} /></a>
+                        </div>
                     </div>
                     <div className="w3-row" id="row">
                         {
