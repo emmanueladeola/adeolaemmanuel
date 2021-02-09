@@ -14,8 +14,8 @@ import proud from './img/proud.png';
 import up from './img/up-arrow.svg';
 import discuss from './img/discuss.svg';
 import paint from './img/paint.svg';
-import develope from './img/develope.svg';
-import test from './img/testing.svg'
+import developer from './img/developer.svg';
+import debug from './img/debug.svg'
 import launch from './img/rocket.svg'
 import idea from './img/idea.svg'
 
@@ -127,7 +127,7 @@ class Adeola extends React.Component{
                             <div className="w3-col s12 m2 l2 w3-padding">
                                 <div className="w3-container w3-padding">
                                     <div className="w3-center w3-margin-top">
-                                        <img src={develope} alt="develope" className="work w3-margin-top" />
+                                        <img src={developer} alt="develope" className="work w3-margin-top" />
                                         <p className="w3-center w3-margin-top">DEVELOP</p>
                                     </div>
                                 </div>
@@ -135,8 +135,8 @@ class Adeola extends React.Component{
                             <div className="w3-col s12 m2 l2 w3-padding">
                                 <div className="w3-container w3-padding">
                                     <div className="w3-center w3-margin-top">
-                                        <img src={test} alt="test" className="work w3-margin-top" />
-                                        <p className="w3-center w3-margin-top">TEST</p>
+                                        <img src={debug} alt="test" className="work w3-margin-top" />
+                                        <p className="w3-center w3-margin-top">DEBUG</p>
                                     </div>
                                 </div>
                             </div>
